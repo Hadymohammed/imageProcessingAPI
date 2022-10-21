@@ -2,7 +2,7 @@
   "name": "imageprocessingapi",
   "version": "1.0.0",
   "description": "imageProcessingAPI project build as a task for Advanced Web Development track by Udacity",
-  "main": "./src/server.ts",
+  "main": "src/server.ts",
   "scripts": {
     "build": "npx tsc",
     "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write",
@@ -38,6 +38,7 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "sharp": "^0.31.1"
   }
 }
