@@ -8,6 +8,7 @@ Building an API that processes images by resizing it.
 - "lint": "eslint . --ext .ts"
 - "jasmine": "jasmine"
 - "test": "npm run build && npm run jasmine"
+- "start": "npm run lint && npm run build && npm run jasmine && node build/server.js"
 ## endpoints
 - /api/image?filename=test.jpg&width=500&height=500 
 - /api/image?filename=test.jpg&width=400&height=400
